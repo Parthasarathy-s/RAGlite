@@ -1,0 +1,5 @@
+A large language model (LLM) is a neural network trained on huge amounts of text to predict the next token. A token is a small piece of text, roughly three quarters of a word. The model reads a prompt and generates a reply one token at a time. Every model has a context window, which is the maximum number of tokens it can read and write in one request.
+
+LLMs can make things up, which is called hallucination. They also do not know about your private documents or events after their training cutoff. Retrieval-Augmented Generation, or RAG, fixes this by looking up relevant text from your own documents and placing it in the prompt, so the model answers from facts you supplied.
+
+An embedding is a list of numbers that represents the meaning of a piece of text. Texts with similar meaning get similar embeddings. Cosine similarity measures how close two embeddings are. A vector database stores embeddings and quickly finds the nearest ones to a query.
